@@ -1,0 +1,72 @@
+interface Translations {
+  [key: string]: {
+    [key: string]: string;
+  };
+}
+
+export const translations: Translations = {
+  en: {
+    search: "Search products...",
+    cart: "Shopping Cart",
+    emptyCart: "Your Cart is Empty",
+    addProducts: "Add some products to your cart!",
+    welcome: "Welcome, Sign in",
+    account: "Account & Lists",
+    your: "Your",
+    orders: "Orders",
+    total: "Total",
+    proceedCheckout: "Proceed to Checkout",
+    shipping: "Shipping",
+    payment: "Payment Method",
+    placeOrder: "Place Order",
+    freeShipping: "Free shipping on all orders",
+    easyReturns: "30-day easy returns",
+    firstName: "First Name",
+    lastName: "Last Name",
+    address: "Address",
+    creditCard: "Credit Card",
+    cardTypes: "Visa, Mastercard, American Express",
+    orderSummary: "Order Summary",
+    quantity: "Qty",
+    subtotal: "Subtotal",
+    addToCart: "Add to Cart",
+    buyNow: "Buy Now",
+    category: "Category",
+    inStock: "In Stock",
+    yes: "Yes",
+    backToProducts: "Back to Products",
+    aboutItem: "About this item"
+  },
+  es: {
+    search: "Buscar productos...",
+    cart: "Carrito de Compras",
+    emptyCart: "Tu Carrito está Vacío",
+    addProducts: "¡Agrega algunos productos a tu carrito!",
+    welcome: "Bienvenido, Inicia sesión",
+    account: "Cuenta y Listas",
+    your: "Tus",
+    orders: "Pedidos",
+    total: "Total",
+    proceedCheckout: "Proceder al Pago",
+    shipping: "Envío",
+    payment: "Método de Pago",
+    placeOrder: "Realizar Pedido",
+    freeShipping: "Envío gratis en todos los pedidos",
+    easyReturns: "30 días para devoluciones",
+    firstName: "Nombre",
+    lastName: "Apellido",
+    address: "Dirección",
+    creditCard: "Tarjeta de Crédito",
+    cardTypes: "Visa, Mastercard, American Express",
+    orderSummary: "Resumen del Pedido",
+    quantity: "Cant",
+    subtotal: "Subtotal",
+    addToCart: "Agregar al Carrito",
+    buyNow: "Comprar Ahora",
+    category: "Categoría",
+    inStock: "En Stock",
+    yes: "Sí",
+    backToProducts: "Volver a Productos",
+    aboutItem: "Sobre este producto"
+  }
+};
